@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>HRPortal7</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IgniteUI.Blazor" Version="23.1.37" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Shared/MainLayout.razor.css" CssScope="master_view-scope" />
+    <None Update="Pages/Home.razor.css" CssScope="home-scope" />
+    <None Update="Pages/My_Info.razor.css" CssScope="my_info-scope" />
+  </ItemGroup>
+</Project>
